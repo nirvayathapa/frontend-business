@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: hsl(233, 47%, 7%);
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Instead of display flex and justify content and align items you can use :
+    display: grid;
+    place-items: center; */
+}
+    
+.main{
+    background-color: hsl(244, 38%, 16%)  ;
+    position: relative;
+    border-radius: 10px;
+    height: 444px;
+    width: 1120px;
+}
+.pic{
+    position: absolute;
+    right: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+    height: 444px;
+    opacity: 1;
+    
+}
+
+
+.purple-overlay{
+    height: 444px;
+    width: 537.5px;
+    position: absolute;
+    right: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+    background-color:hsl(277, 93%, 39%);
+    opacity: 0.5;
+    
+}
+.Heading{
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 56px;
+    width: 400px;
+    font-family: 'Inter', sans-serif;
+}
+.span{
+    color: hsl(277, 64%, 61%);
+    background-color: hsl(244, 38%, 16%);
+}
+.description{
+    color:hsla(0, 0%, 100%, 0.75) ;
+    background-color: hsl(244, 38%, 16%);
+    font-family: 'Lexend Deca', sans-serif;;
+    position: absolute;
+    top: 176px;
+    left: 56px;
+    width: 425px;
+
+
+}
+.company{
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 56px;
+    
+
+}
+.companies{
+    position: absolute;
+    left: 56px;
+    top: 345px;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(244, 38%, 16%);
+    font-family: 'Lexend Deca',sans-serif;
+    font-size: 10.5px;
+
+}
+.tempno{
+    color: white;
+    background-color: hsl(244, 38%, 16%);
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 320px;
+    left: 190px;
+}
+.templates{
+    position: absolute;
+    left:190px;
+    top: 345px;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(244, 38%, 16%);
+    font-family: 'Lexend Deca',sans-serif;
+    font-size: 10.5px;
+}
+.queries{
+    color: white;
+    background-color: hsl(244, 38%, 16%);
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 320px;
+    left: 305px;
+
+}
+.caption3{
+    position: absolute;
+    left:305px;
+    top: 345px;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(244, 38%, 16%);
+    font-family: 'Lexend Deca',sans-serif;
+    font-size: 10.5px;
+
+}
